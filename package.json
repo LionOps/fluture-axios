@@ -1,0 +1,46 @@
+{
+  "name": "fluture-axios",
+  "version": "0.1.0",
+  "main": "dist/fluture-axios.cjs.js",
+  "module": "dist/fluture-axios.esm.js",
+  "browser": "dist/fluture-axios.umd.js",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
+    "babel-core": "6",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "fluture": "^8.0.2",
+    "jest": "^22.4.3",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "test --watch",
+    "lint-fix": "standard --fix",
+    "test": "standard && jest",
+    "pretest": "yarn run build"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": [
+      "dist/",
+      "node_modules"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "axios": "^0.18.0",
+    "fluture": "^8.0.2"
+  },
+  "dependencies": {}
+}
