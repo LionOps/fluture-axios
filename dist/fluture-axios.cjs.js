@@ -55,3 +55,4 @@ methodsWithData.forEach(method => {
 });
 
 module.exports = fluxios;
+//# sourceMappingURL=fluture-axios.cjs.js.map

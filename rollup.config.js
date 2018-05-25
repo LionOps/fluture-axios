@@ -8,8 +8,8 @@ export default [
     input: 'src/main.js',
     external: ['axios', 'fluture'],
     output: [
-      { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'es' }
+      { file: pkg.main, format: 'cjs', sourcemap: true },
+      { file: pkg.module, format: 'es', sourcemap: true }
     ],
     plugins: [
       resolve(),

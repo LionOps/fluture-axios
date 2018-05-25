@@ -51,3 +51,4 @@ methodsWithData.forEach(method => {
 });
 
 export default fluxios;
+//# sourceMappingURL=fluture-axios.esm.js.map
