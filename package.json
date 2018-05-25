@@ -1,9 +1,10 @@
 {
   "name": "fluture-axios",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Fluture-wrapped axios client",
   "main": "dist/fluture-axios.cjs.js",
   "module": "dist/fluture-axios.esm.js",
-  "browser": "dist/fluture-axios.umd.js",
+  "repository": "https://github.com/DevShep/fluture-axios",
   "devDependencies": {
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.15.0",
@@ -37,6 +38,19 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "ajax",
+    "async",
+    "asyncronous",
+    "axios",
+    "fluture",
+    "fp",
+    "functional",
+    "future",
+    "http",
+    "node",
+    "xhr"
   ],
   "peerDependencies": {
     "axios": "^0.18.0",
